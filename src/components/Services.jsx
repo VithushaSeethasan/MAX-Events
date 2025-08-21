@@ -11,7 +11,7 @@ import Img7 from '../images/img7.jpg';
 
 export default function Services() {
     return (
-        <section className="services-section">
+        <section className="services-section" id="services">
             <h2 className="services-title">Our Services</h2>
             <p className="services-description">
                 We provide personalized planning and seamless coordination for every event type.
