@@ -1,0 +1,52 @@
+.footer {
+    background-color: #f9f6f7;
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #4a3c58;
+    font-weight: 500;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer .social-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer .social-links a {
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 2rem;
+    transition: transform 0.2s ease-in-out, text-shadow 0.2s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    text-shadow: 0 0 8px currentColor;
+}
+
+.icon.whatsapp {
+    color: #25D366;
+}
+
+.icon.facebook {
+    color: #1877F2;
+}
+
+.icon.instagram {
+    color: #E1306C;
+    background: radial-gradient(circle at 30% 107%,
+    #fdf497 0%, #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285AEB 90% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

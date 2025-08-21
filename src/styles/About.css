@@ -1,0 +1,56 @@
+.about-section {
+    padding: 5rem 2rem;
+    text-align: center;
+    background-color: #f9f6f7;
+    color: #4a3c58;
+}
+
+.about-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #a27ea8;
+}
+
+.about-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-subtitle {
+    font-size: 1.8rem;
+    color: #a27ea8;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-text {
+    font-size: 1rem;
+    color: #6b5876;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+    line-height: 1.6;
+}
+
+.about-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.about-features li {
+    background-color: #ffffff;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+    color: #4a3c58;
+    font-weight: 500;
+}

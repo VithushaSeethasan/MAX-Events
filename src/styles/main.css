@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #faf8fc;
+  color: #4a3c58;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background: #f9f6f7; /* pastel light color */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #a27ea8; /* pastel purple */
+  user-select: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #6b5876;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #a27ea8;
+}
+
+.nav-links li {
+  cursor: pointer;
+  color: #6b5876;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #a27ea8;
+}
+
+.btn-book {
+  background-color: #cdb4db; /* pastel lavender */
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn-book:hover {
+  background-color: #b497bd;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(
+      rgba(162, 126, 168, 0.6),
+      rgba(162, 126, 168, 0.6)
+    ),
+    url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0 1rem;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin: 0 0 2rem;
+  font-weight: 400;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
+
+.hero .btn-cta {
+  background-color: #cdb4db;
+  color: white;
+  padding: 0.8rem 2.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.hero .btn-cta:hover {
+  background-color: #b497bd;
+}
+
+html {
+  scroll-behavior: smooth;
+}
